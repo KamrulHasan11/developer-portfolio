@@ -5,11 +5,14 @@ body{
 p{
     line-height: 2em;
 }
+section{
+    display: flex;
+    padding-bottom: 150px;
+}
 .my-name{
     color: orange;
 }
 .welcome-section{
-    display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -34,4 +37,9 @@ p{
     background-image: linear-gradient(orange, tomato );
     color: #ffffff;
     font-weight: 700px;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
