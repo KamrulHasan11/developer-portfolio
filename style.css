@@ -6,8 +6,10 @@ p{
     line-height: 2em;
 }
 section{
-    display: flex;
     padding-bottom: 150px;
+}
+.container-flex{
+    display: flex;
 }
 .my-name{
     color: orange;
@@ -42,4 +44,35 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience h1{
+    font-size: 50px;
+}
+.ex-h1{
+    box-shadow: 10px 10px 40px #7a7a7a;
+    width: 40%;
+    margin: 0% 5%;
+    padding: 10px 10px 10px 50px;
+}
+.ex-h1 h1{
+    width: 40%;
+    font-size: 37px;
+}
+.exp-left-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, orange) 30;
+}
+.exp-right-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan) 30;
+}
+footer p{
+    text-align: center;
 }
