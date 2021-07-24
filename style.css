@@ -1,0 +1,37 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+p{
+    line-height: 2em;
+}
+.my-name{
+    color: orange;
+}
+.welcome-section{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.first-section-margin{
+    margin-top: 25px;
+}
+.half-width h1{
+    font-size: 47px;
+    margin-top: 0;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 87%;
+}
+.hireMe-button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato );
+    color: #ffffff;
+    font-weight: 700px;
+}
